@@ -9,16 +9,10 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="social">
           <a href="#">
-            <img src="/facebook.png" alt="" />
+            <img src="/linkedin_icon.png" alt="" />
           </a>
           <a href="#">
-            <img src="/instagram.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+            <img src="/github_icon.png" alt="" />
           </a>
         </div>
       </div>
