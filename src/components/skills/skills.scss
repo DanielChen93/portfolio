@@ -1,5 +1,5 @@
 @import "../../app.scss";
-.services {
+.skills {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
   display: flex;
@@ -85,7 +85,6 @@
         background-color: orange;
         border: none;
         font-size: 24px;
-        cursor: pointer;
 
         @include mobile {
           font-size: 16px;
@@ -111,7 +110,7 @@
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      gap: 100px;
 
       @include mobile {
         border: none;
@@ -120,7 +119,11 @@
         padding: 10px;
       }
 
+      h2 {
+        text-align: center;
+      }
       p {
+        font-size: 20px;
         @include mobile {
           display: none;
         }
