@@ -31,14 +31,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_wjh43kf",
+        "template_l8zn98r",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "MqT9vv9q7WquLK70s"
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
         },
         (error) => {
           setError(true);
@@ -55,18 +55,18 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+        <motion.h1 variants={variants}>Let’s get in touch</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>fadengchen1@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello street New York</span>
+          <span>Blackburn, VIC 3130</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <span>+61 410 573218</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -106,9 +106,9 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          <input type="text" required placeholder="Name" name="from_name" />
+          <input type="email" required placeholder="Email" name="reply_to" />
+          <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
