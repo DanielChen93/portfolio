@@ -60,7 +60,7 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/scroll.png"
+            src="/portfolio/scroll.png"
             alt=""
           />
         </motion.div>
@@ -74,7 +74,7 @@ const Hero = () => {
         REACT TYPESCRIPT AWS
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/portfolio/stars.png" alt="" />
       </div>
     </div>
   );

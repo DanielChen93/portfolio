@@ -13,14 +13,14 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/linkedin_icon.png" alt="" />
+            <img src="/portfolio/linkedin_icon.png" alt="" />
           </a>
           <a
             href="https://github.com/DanielChen93"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/github_icon.png" alt="" />
+            <img src="/portfolio/github_icon.png" alt="" />
           </a>
         </div>
       </div>
