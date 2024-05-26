@@ -25,6 +25,10 @@ section {
   width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
+  & > div {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 @mixin mobile {
