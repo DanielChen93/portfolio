@@ -74,7 +74,7 @@ const Hero = () => {
         REACT TYPESCRIPT AWS
       </motion.div>
       <div className="imageContainer">
-        <img src="/portfolio/stars.png" alt="" />
+        <img src="/portfolio/hero.png" alt="" />
       </div>
     </div>
   );
