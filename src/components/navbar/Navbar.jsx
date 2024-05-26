@@ -8,10 +8,18 @@ const Navbar = () => {
       <Sidebar />
       <div className="wrapper">
         <div className="social">
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/fadengchen/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/linkedin_icon.png" alt="" />
           </a>
-          <a href="#">
+          <a
+            href="https://github.com/DanielChen93"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/github_icon.png" alt="" />
           </a>
         </div>

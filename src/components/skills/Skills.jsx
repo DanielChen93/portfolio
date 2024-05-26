@@ -93,7 +93,7 @@ const Skills = () => {
             <br />
             RESTful API
             <br />
-            PostgreSQL
+            Django
             <br />
             Prisma
           </p>
@@ -108,7 +108,7 @@ const Skills = () => {
             <br />
             Git
             <br />
-            Leaflet.js
+            Python
             <br />
             Websocket
           </p>
