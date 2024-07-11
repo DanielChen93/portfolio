@@ -70,7 +70,7 @@
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 60px;
         font-weight: 100;
 
         @include mobile {
@@ -80,7 +80,7 @@
 
       button {
         width: 300px;
-        height: 100px;
+        height: 80px;
         border-radius: 50px;
         background-color: orange;
         border: none;
@@ -98,7 +98,7 @@
     flex: 2;
     display: flex;
     max-width: 1366px;
-    margin: auto;
+    margin: 5% auto;
 
     @include mobile {
       flex-direction: column;
