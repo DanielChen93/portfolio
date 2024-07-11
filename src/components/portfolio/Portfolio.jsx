@@ -1,11 +1,11 @@
 import { useRef } from "react";
 import "./portfolio.scss";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 const items = [
   {
     id: 1,
-    title: "Next.js Issue Tracker",
+    title: "Issue Tracker",
     img: "/portfolio/issue-tracker.png",
     desc: "Developed an Issue Tracker with Next.js, Tailwind CSS, and Radix UI for a responsive interface. Implemented Google account authentication and CRUD functionalities for issue management. Used PostgreSQL for data storage and integrated Sentry for error tracking, demonstrating skills in frontend, backend, database management, and error monitoring.",
     link: "https://issue-tracker-tan-xi.vercel.app/",
@@ -49,16 +49,10 @@ const Portfolio = () => {
     offset: ["end end", "start start"],
   });
 
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-  });
-
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
         <h1>Featured Works</h1>
-        <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
         <Single item={item} key={item.id} />
